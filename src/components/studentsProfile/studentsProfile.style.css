@@ -1,0 +1,62 @@
+.students-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+.name {
+    background-color: #d46868;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 36px;
+}
+.email {
+    background-color: #d46868;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    padding: 6px;
+    width: 90%;
+    margin-left: 16px;
+}
+.phone {
+    background-color: #d46868;
+    color: rgb(0, 0, 0);
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding: 6px;
+    width: 90%;
+    margin-left: 16px;
+}
+
+.cards {
+    width: 24%;
+    height: 360px;
+    background: rgb(85,9,9);
+    background: radial-gradient(circle, rgba(85,9,9,1) 44%, rgba(32,43,198,0.9220063025210083) 84%);
+    border-radius: 10px;
+}
+
+.info {
+    width: 80%;
+    height: 15%;
+    background-color: #d46868;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 36px;
+    border-radius: 5px
+}
+
+.info:hover {
+    background-color: #f60000;
+    color: blue;
+    cursor: pointer;
+}
