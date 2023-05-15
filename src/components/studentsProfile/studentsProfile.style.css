@@ -7,7 +7,7 @@
 }
 
 .name {
-    background-color: #d46868;
+    background-color: rgb(0, 174, 255);
     color: rgb(0, 0, 0);
     border-radius: 5px;
     font-weight: bolder;
@@ -17,7 +17,7 @@
     margin-left: 36px;
 }
 .email {
-    background-color: #d46868;
+    background-color: rgb(0, 174, 255);
     color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 5px 5px 0 0;
@@ -26,7 +26,7 @@
     margin-left: 16px;
 }
 .phone {
-    background-color: #d46868;
+    background-color: rgb(0, 174, 255);
     color: rgb(0, 0, 0);
     border-radius: 0 0 5px 5px;
     margin-bottom: 15px;
@@ -39,15 +39,26 @@
 .cards {
     width: 24%;
     height: 360px;
-    background: rgb(85,9,9);
-    background: radial-gradient(circle, rgba(85,9,9,1) 44%, rgba(32,43,198,0.9220063025210083) 84%);
+    background-image: linear-gradient(
+  10deg,
+  hsl(236deg 94% 20%) 0%,
+  hsl(244deg 57% 29%) 11%,
+  hsl(247deg 43% 36%) 22%,
+  hsl(247deg 33% 44%) 33%,
+  hsl(247deg 27% 51%) 44%,
+  hsl(246deg 29% 59%) 56%,
+  hsl(245deg 32% 67%) 67%,
+  hsl(244deg 36% 75%) 78%,
+  hsl(243deg 43% 83%) 89%,
+  hsl(242deg 62% 91%) 100%
+);
     border-radius: 10px;
 }
 
 .info {
     width: 80%;
     height: 15%;
-    background-color: #d46868;
+    background-color: rgb(0, 174, 255);
     font-size: 2rem;
     font-weight: bold;
     color: white;
@@ -56,7 +67,7 @@
 }
 
 .info:hover {
-    background-color: #f60000;
-    color: blue;
+    background-color: #adfafd;
+    color: rgb(47, 42, 42);
     cursor: pointer;
 }

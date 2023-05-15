@@ -7,4 +7,6 @@
 body {
     width: 80%;
     margin: 0 auto;
+    background: rgb(154,184,185);
+background: linear-gradient(0deg, rgba(154,184,185,1) 0%, rgba(105,130,241,1) 100%);
 }
